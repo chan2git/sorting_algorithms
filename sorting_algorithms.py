@@ -66,7 +66,7 @@ def selection_sort(list):
 
     return list
 
-
+### Generates a list of 10 random numbers between 1 to 100, applies selection_sort(), and prints the sorted list
 random_list = random.sample(range(1, 100), 10)
 sorted_list = selection_sort(random_list)
 print(f"Selection Sort: {sorted_list}")
